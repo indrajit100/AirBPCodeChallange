@@ -19,6 +19,7 @@
     self.dealAll = dealAll;
     self.dealShuffledDeck = dealShuffledDeck;
     self.removeFromList = removeFromList;
+    self.sortAll = sortAll;
 
     function reset() {
       self.dealt = [];
@@ -34,7 +35,7 @@
     }
 
     function dealAll() {
-      self.reset();
+      //self.reset();
       while (dealOne()) {}
     }
 
@@ -44,6 +45,8 @@
       self.shuffle();
       self.dealAll();
     }
+
+
     function removeFromList(index){
 
       console.log("===> ",self.deck);
@@ -52,6 +55,11 @@
 
       console.log("dealt after ===> ",self);
 
+    }
+
+    function sortAll(){
+      self.reset();
+      while (dealOne()) {}
     }
   }
 
