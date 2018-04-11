@@ -1,6 +1,6 @@
 Kindly follow this instructions to handle the Deck of Cards
 
-1. Reset button is resettinging the cards from A-Clubs to K-Diamond.
+1. Reset button is resetting the cards from A-Clubs to K-Diamond.
 2. Shuffle button will shuffle randomly how many times it will hit
 3 Deal one button will display one by one. If it is not shuffled it will display in Clubs, Spades, Hearts, Diamonds(A - K) ordered,
 otherwise shuffled format which is based on random algorithm.
