@@ -44,12 +44,13 @@
       self.shuffle();
       self.dealAll();
     }
-    function removeFromList(param){
+    function removeFromList(index){
 
-      console.log("===> ",param);
-      console.log("dealt before===> ",self.dealt);
-      self.dealt.splice(param, 1);
-      console.log("dealt after ===> ",self.dealt);
+      console.log("===> ",self.deck);
+      self.deck.cards.push(self.dealt[index]);
+      self.dealt.splice(index, 1);
+
+      console.log("dealt after ===> ",self);
 
     }
   }
