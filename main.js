@@ -60,7 +60,7 @@
     function sortAll(){
       self.reset();
       while (dealOne()) {}
-    }
+    } 
   }
 
 })();
